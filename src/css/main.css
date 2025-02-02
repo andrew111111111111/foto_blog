@@ -1,0 +1,56 @@
+:root {
+  --color-text-primary: #626262;
+  --color-text-category: #b4ad9e;
+  --color-text-navigation: #7d7d7d;
+  --color-text-hover: #03a9f4;
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Ubuntu", serif;
+}
+body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: var(--color-text-primary);
+}
+a:hover {
+  color: var(--color-text-hover);
+  color: #03a9f4;
+  text-decoration: none;
+}
+nav ul li a {
+  color: var(--color-text-navigation);
+  color: #7d7d7d;
+}
+
+.post-category {
+  font-family: Ubuntu;
+  font-weight: 300;
+  color: #b4ad9e;
+}
+
+.post-title {
+  font-size: 30px;
+}
+.gallery-button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: 1px solid #626262;
+  background-color: transparent;
+  padding: 20px 50px;
+}
+.gallery-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+a,
+span {
+  text-shadow: 5px 3px 5px #626262;
+}
+p {
+  text-shadow: 5px 3px 5px #7d7d7d;
+}
+h2 {
+  text-shadow: 5px 3px 5px #b4ad9e;
+}
