@@ -44,13 +44,3 @@ nav ul li a {
   opacity: 0.8;
   cursor: pointer;
 }
-a,
-span {
-  text-shadow: 5px 3px 5px #626262;
-}
-p {
-  text-shadow: 5px 3px 5px #7d7d7d;
-}
-h2 {
-  text-shadow: 5px 3px 5px #b4ad9e;
-}
