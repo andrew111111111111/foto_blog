@@ -13,6 +13,13 @@ body {
   line-height: 1.35;
   color: var(--color-text-primary);
 }
+.conteiner {
+  max-width: 936px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 a:hover {
   color: var(--color-text-hover);
   color: #03a9f4;
