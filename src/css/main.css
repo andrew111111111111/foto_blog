@@ -20,6 +20,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header {
+  padding-top: 70px;
+}
 a:hover {
   color: var(--color-text-hover);
   color: #03a9f4;
@@ -29,15 +32,28 @@ nav ul li a {
   color: var(--color-text-navigation);
   color: #7d7d7d;
 }
+.main {
+  padding-top: 90px;
+  padding-bottom: 65px;
+}
+.post-foto {
+  margin-bottom: 60px;
+}
 
 .post-category {
   font-family: Ubuntu;
   font-weight: 300;
   color: #b4ad9e;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .post-title {
   font-size: 30px;
+  margin-bottom: 40px;
+}
+.gallery-list {
+  margin-bottom: 90px;
 }
 .gallery-button {
   font-family: inherit;
